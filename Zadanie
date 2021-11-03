@@ -1,0 +1,42 @@
+char a, b, c, d, e, f, g, h, i;
+Console.WriteLine("What's the state of the first field:  ");
+a = Console.ReadeLine().ToUpper()[0];
+Console.WriteLine("What's the state of the second field:  ");
+b = Console.ReadeLine().ToUpper()[0];
+Console.WriteLine("What's the state of the third field:  ");
+c = Console.ReadeLine().ToUpper()[0];
+Console.WriteLine("What's the state of the fourth field:  ");
+d = Console.ReadeLine().ToUpper()[0];
+Console.WriteLine("What's the state of the fifth field:  ");
+e = Console.ReadeLine().ToUpper()[0];
+Console.WriteLine("What's the state of the sixth field:  ");
+f = Console.ReadeLine().ToUpper()[0];
+Console.WriteLine("What's the state of the seventh field:  ");
+g = Console.ReadeLine().ToUpper()[0];
+Console.WriteLine("What's the state of the eights field:  ");
+h = Console.ReadeLine().ToUpper()[0];
+Console.WriteLine("What's the state of the nineth field:  ");
+i = Console.ReadeLine().ToUpper()[0];
+
+if (a != 'X' && a != 'O')
+    a = ' ';
+if (b != 'X' && b != 'O')
+    b = ' ';
+if (c != 'X' && c != 'O')
+    c = ' ';
+if (d != 'X' && d != 'O')
+    d = ' ';
+if (e != 'X' && e != 'O')
+    e = ' ';
+if (f != 'X' && f != 'O')
+    f = ' ';
+if (g != 'X' && g != 'O')
+    g = ' ';
+if (h != 'X' && h != 'O')
+    h = ' ';
+if (i != 'X' && i != 'O')
+    i = ' ';
+
+Console.WriteLine($" {a} | {b} | {c} \n ---+---+---\n {d} | {e} | {f} \n ---+---+---\n {g} | {h} | {i}");
+
+
